@@ -1,0 +1,159 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+body,
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#f3f0f0, #9ef3ec);
+    font-family: "Poppins", sans-serif;
+}
+
+.main {
+    width: 100%;
+    margin-top: 4rem;
+    padding-inline: 2rem;
+}
+.funny {
+    width: 100%;
+    margin-top: 8rem;
+    padding-inline: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.navbar {
+    background: #97e2c8 !important;
+    box-shadow: 0 0 10px #111111;
+    
+}
+
+
+.card {
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 2rem;
+    border: none;
+    box-shadow: 0 5px 10px #00000030;
+    width: 280px;
+    background-color: rgba(255, 255, 255, 0) !important;
+    position: relative;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+  
+.card h5 {
+    font-size: 1.2rem !important;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+  
+  .card p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.main-details {
+    width: 100%;
+    margin-top: 8rem;
+    padding-inline: 2rem;
+    height: 50vh;
+}
+
+.dettaglio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.img-cont {
+    /* border: 1px solid #111111; */
+    padding: 10px;
+    min-width: 30%;
+    min-height: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-cont img {
+    width: 75%;
+    height: auto;
+}
+
+
+.card-body-cont {
+    /* border: 1px solid #ff0000; */
+    padding: 10px;
+    min-width: 50%;
+    min-height: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: #97e2c8 !important;
+    box-shadow: 15px 15px 15px 5px #4747476d;
+
+}
+.my-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.my-card-body button {
+    max-width: 200px !important;
+    min-width: 80px !important;
+}
+.card-body-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    background: #97e2c8 !important;
+}
+.card-body-2 a {
+    padding-bottom: 10px;
+    text-decoration: none !important;
+
+}
+.Txt {
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 95%;
+    border-radius: 30px;
+    
+}
